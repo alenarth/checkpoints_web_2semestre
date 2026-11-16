@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  background: linear-gradient(135deg, #0b1120, #111827 55%, #1e293b);
+  font-family: Arial, Helvetica, sans-serif;
+  color: #f8fafc;
+}
+
+.placar {
+  width: 100%;
+  max-width: 440px;
+  padding: 40px 30px 32px;
+  text-align: center;
+  background: #111827;
+  border: 1px solid #334155;
+  border-radius: 24px;
+  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.4);
+}
+
+.etiqueta {
+  color: #34d399;
+  font-size: 0.75rem;
+  font-weight: bold;
+  letter-spacing: 0.18em;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+.descricao {
+  margin: 10px 0 20px;
+  color: #94a3b8;
+}
+
+.pontuacao {
+  display: block;
+  margin-bottom: 28px;
+  font-size: 6rem;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.controles {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+}
+
+button {
+  flex: 1;
+  padding: 14px 10px;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+button:hover {
+  transform: translateY(-2px);
+}
+
+.botao-retirar {
+  background: #475569;
+}
+
+.botao-retirar:hover {
+  background: #64748b;
+}
+
+.botao-adicionar {
+  background: #10b981;
+}
+
+.botao-adicionar:hover {
+  background: #059669;
+}
+
+.mensagem {
+  min-height: 20px;
+  margin-top: 18px;
+  color: #fca5a5;
+  font-size: 0.9rem;
+}

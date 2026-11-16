@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Placar de Jogo</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <main class="placar">
+    <p class="etiqueta">CHECKPOINT 2</p>
+    <h1>Placar de Jogo</h1>
+    <p class="descricao">Pontuação da equipe</p>
+
+    <span id="pontuacao" class="pontuacao">0</span>
+
+    <div class="controles">
+      <button type="button" class="botao-retirar" onclick="retirarPonto()">Retirar ponto</button>
+      <button type="button" class="botao-adicionar" onclick="adicionarPonto()">Adicionar ponto</button>
+    </div>
+
+    <p id="mensagem" class="mensagem"></p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

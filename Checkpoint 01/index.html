@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calculadora de Compras</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <main class="calculadora">
+    <p class="etiqueta">CHECKPOINT 1</p>
+    <h1>Calculadora de Compras</h1>
+    <p class="descricao">Informe o preço unitário e a quantidade para calcular o total.</p>
+
+    <div class="entrada">
+      <label for="preco">Preço unitário (R$)</label>
+      <input type="number" id="preco" placeholder="Ex.: 15.00" min="0" step="0.01" />
+
+      <label for="quantidade">Quantidade</label>
+      <input type="number" id="quantidade" placeholder="Ex.: 3" min="0" step="1" />
+    </div>
+
+    <button type="button" onclick="calcularTotal()">Calcular total</button>
+
+    <p id="resultado">Total da compra: R$ 0,00</p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
